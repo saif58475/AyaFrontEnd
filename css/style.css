@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: roboto;
+}
+
+ /* header style  */
+
+.header{
+    width: 100%;
+    height: 70vh;
+    background-image: url("../images/header-background.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.navbar{
+    padding-top: 20px;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-nav li{
+    padding-right: 35px;
+}
+.navbar-brand{
+    font-size: 28px;
+}
+.nav-link img{
+    width: 25px;
+}
+.header-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+/* .header-title h2{
+    padding-top: 200px;
+} */
+.header-title button,.kitchen-info button{
+    font-size: 13px;
+    color: #000;
+    border: 2px solid #000;
+   border-radius: initial !important;
+   font-weight: 500;
+   margin-top: 10px;
+   padding: 7px 21px;
+}
+
+/* kitchen section style */
+.kitchen .kitchen-heading, .posts .Posts-heading, .bestseller-heading{
+    text-align: center;
+    padding-top: 55px;
+    margin-bottom: 20px;
+}
+.kitchen hr{
+    width: 5%;
+    margin: 0 auto;
+    border: none;
+    height: 3px;
+    color: #333;
+    background-color: #333;
+    opacity: 1;
+}
+
+.boxes{
+    padding-top: 60px;
+}
+
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important; 
+}
+.container-fluid{
+    align-content: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.box{
+    height: 400px;
+    align-items: center;
+    
+}
+.boxes .one{
+    background-image: url("../images/kitchen.avif"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+
+}
+.boxes .two{
+    background-color: #e8e9e8;
+}
+.boxes .three{
+    background-image: url("../images/kitchennnnn.avif"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* width: 100%; */
+}
+.kitchen-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+.kitchen-info .paragraph{
+    width: 80%;
+    text-align: center;
+}
+
+/* Recent posts section style */
+
+.posts .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 70px;
+ }
+ 
+ .cards .card {
+    flex: 0 1 24%;
+    background: white;
+    margin: 0 15px;	
+ }
+
+.card img{
+    display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+.card .card-content {
+	padding: 1.4em;
+}
+
+.card .card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+}
+
+.card .card-content hr{
+    margin: 2rem 0;
+}
+.card-content .info{
+    display: flex;
+}
+.info .fa-eye{
+    flex-grow: 1;
+    font-size: 20px;
+}
+
+.info span{
+    flex-grow: 3;
+    font-size: 16px;
+    color: #a7a4a4;
+}
+.info p{
+    flex-grow: 4;
+}
+.info .fa-heart{
+    flex-grow: 0;
+}
+
+/* our bestseller section style */
+.Bestseller{
+    background-color: #f1f1e6;
+}
+.bestseller-heading{
+    margin-bottom: 0 !important;
+    /* padding: 39px 0; */
+
+}
+.our-offers{
+    background-color: white;
+    padding: 17px 0;
+   
+   
+}
+.our-offers .card{
+    border: none;
+}
+.our-offers .card .card-content{
+    text-align: center;
+}
+.our-offers .card .card-content hr{
+    width: 13%;
+    margin: 0 auto;
+    border: none;
+    height: 3px;
+    color: #333;
+    background-color: #333;
+    opacity: 1;
+}
+.our-offers .card .card-content p{
+    margin-top: 13px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+@media  (max-width: 767px){
+    .posts .cards{
+        flex-direction: column;
+    }
+
+}
+
+/* small screen */
+@media  (min-width: 768px){
+
+}
+
+/* medium screen */
+@media  (min-width: 992px){
+
+}
+
+/* large screen */
+@media  (min-width: 1200px){
+
+}
+
